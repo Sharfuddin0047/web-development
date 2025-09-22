@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in Html</title>
+
+    <style>
+        input[type="number"]{
+            appearance: textfield;
+        }
+
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button{
+            display: none;
+        }
+
+        textarea{
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        Username 
+        <input type="text"> 
+        <br><br>
+
+        Mobile
+        <input type="tel">
+        <br><br>
+
+        Email
+        <input type="email">
+        <br><br>
+
+        Password 
+        <input type="password">
+        <br><br>
+
+        Upload Document
+        <input type="file" multiple>
+        <br><br>
+
+        Dob
+        <input type="date">
+        <br><br>
+
+        Time
+        <input type="time">
+        <br><br>
+
+        DOB & Time 
+        <input type="datetime-local">
+        <br><br>
+
+        Search Here
+        <input type="search">
+        <br><br>
+
+        Select Range <br>
+        <input type="range">
+        <br><br>
+
+        Github URL
+        <input type="url">
+        <br><br>
+
+        Account Number
+        <input type="number">
+        <br><br>
+
+        Gender <br>
+        <input type="radio" name="anything"> Male    
+        <input type="radio" name="anything"> Female    
+        <input type="radio" name="anything"> Others
+        <br><br>    
+
+        Skills <br>
+        <input type="checkbox"> Java
+        <input type="checkbox"> CPP
+        <input type="checkbox"> Python
+        <input type="checkbox"> React
+        <input type="checkbox"> JavaScript
+        <input type="checkbox"> C
+
+        <br><br>
+        <input type="checkbox" > Agree with our <a href="https://www.google.com" target="_blank">t&c</a>
+        <br><br>
+
+
+        Feedback <br>
+        <textarea
+         name="" 
+         id="" 
+         rows="10" 
+         cols="30" 
+         placeholder="Write Something.."
+         >
+        </textarea>
+        <br><br>
+
+
+        <button type="submit">SignIn</button>   
+        <button type="reset">Cancel</button>
+        
+    </form>
+
+
+   
+</body>
+</html>

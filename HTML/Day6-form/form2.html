@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form (Part-3)</title>
+    <style>
+        fieldset{
+            width: 150px;
+        }
+
+        sup{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" autocomplete="off">
+        <fieldset>
+            <legend>
+                <b>College Registration Form</b>
+            </legend>
+
+                <label for="inp">
+                    College Name
+                    <input
+                     type="text"
+                     id="inp"
+                     name="College"
+                     value="DTU University"
+                     disabled
+                     >
+                </label>
+                <br><br>
+
+                <label for="input0">
+                    Faculty Name
+                    <input
+                     type="text"
+                     name="Faculty"
+                     value="RD Sharma"
+                     id="input0"
+                     readonly
+                     >
+                </label>
+                <br><br>
+
+                <label for="input1">
+                    Username
+                    <input
+                     type="text"
+                     id="input1"
+                     placeholder="Enter fullname"
+                     name="userName"
+                     minlength="2"
+                     maxlength="16"
+                     autofocus
+                     >
+                </label>
+                <br><br>
+
+                <label for="input2">
+                    Mobile<sup>*</sup>
+                    <input
+                     type="tel"
+                     id="input2"
+                     placeholder="+91-xxxxxxxxxx"
+                     name="mobile"
+                     autocomplete="off"
+                     required
+                     >
+                </label>
+                <br><br>
+
+                <label for="input3">
+                    Email<sup>*</sup>
+                    <input
+                     type="email"
+                     id="input3"
+                     placeholder="xyz@gmail.com"
+                     name="emailId"
+                     required
+                     >
+                </label>
+                <br><br>
+
+                <label for="input4">
+                    Password<sup>*</sup>
+                    <input
+                     type="password"
+                     id="input4"
+                     name="pass"
+                     placeholder="At least 8 characters"
+                     required
+                     >
+                </label>
+                <br><br>
+
+                <label for="input5">
+                    Yop<sup>*</sup>
+                    <select name="userYop" id="input5" required>
+                        <option value="" disabled selected>--Select Your YOP-</option>
+                        <option value="25">2025</option>
+                        <option value="224">2024</option>
+                        <option value="2023">2023</option>
+                    </select>
+                </label>
+                <br><br>
+
+                <label for="input6">
+                    State<sup>*</sup>
+                    <input
+                     type="text"
+                     id="input6"
+                     name="userState"
+                     placeholder="Enter your state"
+                     list="stateName"
+                     required
+                     >
+
+                     <datalist id="stateName">
+                        <option value="Uttarakhand"></option>
+                        <option value="Uttar Pradesh"></option>
+                        <option value="Madhya Pradesh"></option>
+                        <option value="Maharashtra"></option>
+                     </datalist>
+                </label>
+
+
+
+                <br><br>
+                <label for="input7">
+                    Feedback
+                    <textarea
+                     name="userFeedback" 
+                     id="input7" 
+                     rows="10" 
+                     cols="25" 
+                     placeholder="Write Something.."
+                     >
+                    </textarea>
+                </label>
+                <br><br>
+
+                <button type="submit">SignIn</button>
+                <button type="reset">Cancel</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
