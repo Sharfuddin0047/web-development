@@ -1,0 +1,17 @@
+/* #d1{
+    color: red;
+}
+
+.t1{
+    color: blue;
+}
+
+/* ! Universal/Wildcard Selector */
+
+*{
+    color: stenna;
+} */
+
+#d1,.p2,span{
+    color: magenta;
+}
