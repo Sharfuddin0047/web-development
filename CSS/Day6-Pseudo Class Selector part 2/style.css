@@ -1,0 +1,91 @@
+/*
+:root{
+        font-size:10px;
+    --primary-color:#ff0;
+    --primary-bg-color:rgb(255,0,255);   
+}
+
+
+ main p:first-of-type{
+    color: crimson;
+}
+
+main p:last-of-type{
+    color: blue;
+}
+
+main p:nth-of-type(2){
+    color: tomato;
+}
+
+main p:nth-last-of-type(2)
+{
+    color: green;
+}
+a:link{
+    color: sienna;
+}
+a:active{
+    color: springgreen;
+}
+a:visited{
+    color: orangered;
+}
+button:hover{
+    border-color:transparent;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+}
+
+.box:hover{
+    background: blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+input:focus{
+    caret-color:crimson;
+    outline:1.5px solid crimson ;
+    border-color: transparent;
+    border-radius: 2px;
+}    
+
+
+main :is(.p1,#s1)
+{
+    color: crimson;
+}
+
+
+main :is(.p1,span)
+{
+    color: blue;
+}
+
+
+div:has(h4,h2){
+    color: crimson;
+}
+
+
+div:not(:has(span)){
+    color: tomato;
+}
+
+div:not(:has(.s1,.s2,.s3)){
+    color: blue;   
+}
+*/
+
+
+
+
+

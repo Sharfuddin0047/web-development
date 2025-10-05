@@ -27,3 +27,8 @@ This the property we want to apply on html element that we have targeted.
 4. tagname
 5. universal/ wildcard
 
+# Pseudo class selector
+1. First child
+2. Last child
+3. nth child
+4. nth last child

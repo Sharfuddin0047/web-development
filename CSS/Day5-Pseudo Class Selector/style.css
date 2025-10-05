@@ -1,0 +1,35 @@
+/*
+main :last-child{
+    color: darkcyan;
+} 
+
+main :nth-child(odd)
+{
+    color: darkmagenta;
+}
+
+main :nth-child(2), main :nth-child(3)
+{
+    color: crimson;
+}
+
+
+main :nth-child(2),
+main :nth-child(3)
+{
+    color: crimson;
+}*/
+
+main #s1 :last-child{
+    color: crimson;
+}
+
+main #s2 :first-child{
+    color: magenta;
+}
+
+
+main #s3 :nth-child(3)
+{
+    color: blue;
+}

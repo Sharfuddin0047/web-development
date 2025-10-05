@@ -1,0 +1,31 @@
+/* */
+input[type]{
+    color: red;
+} 
+
+input[placeholder="First Name"]
+{
+    color: crimson;
+}
+
+input[placeholder="Last Name"]{
+    color: blue;
+}
+
+
+input[placeholder^="First"]{
+    color: blue;
+}
+
+input[placeholder$="Email"]{
+    color: darkmagenta;
+}
+
+input[placeholder~="First"]{
+    color: crimson;
+}
+
+
+input[placeholder*="Last"]{
+    color: blue;
+}

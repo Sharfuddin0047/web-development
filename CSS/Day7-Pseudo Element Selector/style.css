@@ -1,0 +1,56 @@
+/* :is(h1, h1 > span)::first-letter
+{
+  color: crimson;
+  font-size: 50px;
+  font-style: italic;
+}
+
+span {
+  display: inline-block;
+}
+
+.wrapper::first-line {
+  background-color: yellow;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+::selection {
+  background-color: green;
+  color: white;
+}
+
+ul li::marker {
+  content: "✔️ ";
+  font-weight: bold;
+} */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 125px;
+    color: white;
+}
+
+h1::before{
+    content: "Cascading ";
+    color: darkorange;
+}
+
+h1::after{
+    content: " Sheet";
+    color: green;
+}
