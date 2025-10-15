@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@import url();
+h1{
+    font-size: 120px;
+    font-style: oblique 10deg;
+    font-family: "Dancing Script", cursive;
+}
+
+h2{
+    font-size: 75px;
+    color: blue;
+    font-family: "Inter", sans-serif;
+}

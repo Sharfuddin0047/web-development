@@ -1,0 +1,16 @@
+
+h1{
+    /* color: #d6636a; */
+    /* color: rgba(255, 0, 255, 0.242); */
+    /* color: hwb(300 0% 35% / 0.912); */
+    color: hsl(180, 100%, 33%);
+    font-size: 106px;
+    font-style: italic;
+    font-family: "Dancing Script", cursive;
+}
+
+div{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}

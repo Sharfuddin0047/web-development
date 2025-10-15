@@ -1,0 +1,54 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+#wrapper{
+    width: 1000px;
+    height: 600px;
+    border: 3px solid black;
+}
+
+#wrapper .card{
+    width: 200px;
+    height: 250px;
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+}
+
+#wrapper .c1{
+    background-color: lightgreen;
+}
+
+#wrapper .c2{
+    background-color: coral;
+    /* display: none; no ui, no space, no js*/
+    /* visibility: hidden; no ui, keep space, no js*/
+    /* opacity: 0; no ui, keep space,  js code works*/
+}
+
+#wrapper .c3{
+    background-color: lightblue;
+}
+   
+   
+/*
+! Difference between Visibility:hidden, display:none and opacity:0?
+*/
+
+   
+
+
+

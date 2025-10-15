@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1150px;
+    height: 530px;
+    /* border: 2px solid black; */
+    border-radius: 24px;
+    background-image: url('https://jep-asset.akamaized.net/jio/webp/homepage/17-09-2024/L_1184x520-17.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 60px;
+
+    display: flex;
+    align-items: center;
+}
+
+.container .content{
+    width:484px;
+    min-height: 168px;
+    background-color: #333;
+    color: white;
+}
+
+.container h2{
+    font-weight: 800;
+    font-size: 40px;
+    background-color: blue;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: 4px underline red;
+    word-spacing: 50px;
+
+}
+
+.container h3{
+    font-size: 18px;
+    margin-block:15px 30px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.container a{
+    font-weight: 700;
+    /* letter-spacing: -0.08px; */
+    font-size: 16px;
+    background-color: #4848f9;
+    color: white;
+    padding: 8px 17px;
+    border-radius: 24px;
+    /* text-underline-position: under; */
+    text-underline-offset: -30px;
+    letter-spacing: 10px;
+}

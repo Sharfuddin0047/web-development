@@ -1,0 +1,26 @@
+@import url("./main.css");
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 1000px;
+    height: 500px;
+    background-color:#90e0ef;
+    border: 2px solid black;
+    background-image: url('https://images.pexels.com/photos/1388069/pexels-photo-1388069.jpeg?cs=srgb&dl=pexels-helenalopes-1388069.jpg&fm=jpg');  /* w=1400 / 1000 h=499/ 500*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}

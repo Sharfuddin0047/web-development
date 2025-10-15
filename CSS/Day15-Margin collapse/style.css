@@ -1,0 +1,31 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+
+section {
+    width: 1000px;
+    height: 400px;
+    background-color: lightgreen;
+    overflow: hidden;
+    margin-top: 50px;
+    /* border: 2px solid transparent; */
+}
+
+section div{
+    width: 120px;
+    height: 120px;
+    background-color: magenta;
+    margin: 100px auto;
+}

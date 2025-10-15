@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+}
+section.container{
+    min-height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.s1{
+    background-image: url('https://images-porsche.imgix.net/-/media/92C77A76FFFE4CB6AC4808FC077B9F4B_8B0BB52914224A8F81898F68A30289D3_taycan-4s?w=1759&q=85&auto=format');
+    background-attachment: fixed;
+}
+.s2{
+    background-image: url('https://www.edmunds.com/assets/m/cs/cms/98347fdc-87e9-4925-8915-6cff4bce174c/2025-lexus-gx-550_1280.jpg');
+}
+.s3{
+    background-image: url('https://i.ytimg.com/vi/fz24Va_yuHk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC6En8qD_AIxGOkn_HHMeLsH29QHA');
+    background-attachment: fixed;
+}
+.s4{
+    background-image: url('https://www.team-bhp.com/forum/iipcache/137382.jpg');
+}
+.s5{
+    background-image: url('https://www.indiacarnews.com/wp-content/uploads/2016/05/New-Tata-Nano-2017-Pelican.jpg');
+    background-attachment: fixed;
+}
+
+.s6{
+    background-image: url('https://truckcdn.cardekho.com/in/super-eco/tum-tum/super-eco-tum-tum.jpg');
+}

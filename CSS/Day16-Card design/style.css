@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.card-container{
+    width: 1200px;
+    min-height: inherit;
+    /* background-color:#dc143c; */
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container .card{
+    width: 320px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 1px gray;
+}
+
+.card-container .profile{
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+/* For Card-1 */
+.card-container .c1 .profile{
+       background-image:url("https://i.ndtvimg.com/mt/movies/2013-11/krrish3-start.jpg");
+}
+
+/* For Card-2 */
+.card-container .c2 .profile{
+    background-image: url('https://m.media-amazon.com/images/M/MV5BNDU2ZTYxYTMtMjhlZC00ZjEwLThhNDUtMzdlNWM4ZDcyYTM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg');
+}
+
+/* For Card-3 */
+.card-container .c3 .profile{
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/3/2018/05/IRON-2008-d7a2706.jpg?quality=90&resize=800,534");
+    background-position: left -60px center;
+}
+.card-container .info{
+    height: 30%;
+}
+
+.card-container h2{
+    text-align: center;   
+    margin-block: 10px 20px;
+}
+
+.card-container a{
+    padding: 10px 64px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
